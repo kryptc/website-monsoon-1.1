@@ -1,0 +1,131 @@
+body {
+    background-image: url("lakeside.jpg");
+    background-size: 100%;
+    background-color: #4254bc;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+#nav-bar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 15%;
+        top:0px;
+        height:110%;
+        position: fixed;
+        opacity: 0.8;
+        overflow: auto;
+        background-color: #303030;
+}
+li a {
+        display: block;
+        color: #f66a6a;
+        padding: 41px 16px;
+        text-align: center;
+        font-size: 29px;
+        font-style: normal;
+	    font-family: 'Playfair Display', serif; 
+    	font-weight: bold;
+        text-decoration: none;
+}
+li:last-child {
+        border-bottom: 5px;
+}
+li a:hover {
+        background-color: #212121;
+        color: white;
+}
+.active {
+        background-color: #2a4a96;
+        color: white;
+}
+textarea {
+        /*margin-left: 23px;*/
+        font-family: sans-serif;
+        font-size: 14px;
+        resize: none;
+        width: 90%;
+}
+button {
+    background-color: white;
+    border: none;
+    border-radius: none;
+    color: black;
+    padding: 1%;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+}
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.4), 0 17px 50px 0 rgba(0,0,0,0.3);
+    /*background-color: black;
+    border: none;
+    color: white;*/
+}
+.transbox {
+    padding-top: 4px;
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-bottom: 4px;
+    margin-top: 0px;
+    margin-left: 380px;
+    margin-bottom: 0px;
+    margin-right: 140px;
+    background-color: rgba(255,255,255,0.5);
+}
+.transbox p {
+         margin: 3px;
+         font-size:20px;
+         text-align: left;
+         font-family: 'Noticia Text', serif;
+    font-weight: normal;
+    color: #000000;
+}
+.contacthead {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        color: black;
+        text-decoration: none;
+        font-family: 'Noticia Text', serif;
+}
+.form {
+    padding-top: 4px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 4px;
+    margin-top: 400px;
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-bottom: 400px;
+    font-family: serif;
+    font-size: 18px;
+}
+.reach {
+    font-size: 20px;
+}
+.home {
+    position: fixed;
+    top: 2px;
+    right: 5px;
+}
+
+/*.icons {
+    position:fixed;
+    margin-top: 1px;
+    
+    margin-left: 900px;
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+} */
+table {
+    .equal-width td{width: 50%;}
+}
+td a:hover {
+    opacity: 0.7;
+}

@@ -1,0 +1,128 @@
+body {
+           
+            font-family: serif;
+            display: grid;
+            grid-template-columns: 200px 4fr 1fr;
+            grid-template-areas: 
+                "navibar header header" 
+                "navibar content sidebar" 
+                "navibar footer footer";
+            
+            margin: 0;
+            min-height: 100vh;
+            }
+        .header {
+           
+            grid-area: header;
+            text-align: center;
+            background: #0c0c0c;
+            color: #fff;
+            font-size: 100%;
+            padding: 2%;
+            font-family: 'Playfair Display',Helvetica;
+
+        }
+        .sidebar {
+            grid-area: sidebar;
+            background: #eeeeee;
+        }
+        .footer {
+            grid-area: footer;
+            background: #777;
+            border-top: 2px solid;
+            padding: 10px;
+        }
+
+        #nav-bar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 15%;
+        top:0px;
+        height:110%;
+        position: fixed;
+        opacity: 1;
+        overflow: auto;
+        background-color: #303030;
+}
+
+li a {
+        display: block;
+        color: #f66a6a;
+        padding: 41px 16px;
+        text-align: center;
+        font-size: 29px;
+        font-style: normal;
+        font-family: 'Playfair Display',serif;
+        font-weight: bold;
+        text-decoration: none;
+}
+li a:hover {
+        background-color: #212121;
+        color: white;
+}
+li a.active {
+        background-color: #2a4a96;
+        color: white;
+}
+#listof {
+        list-style-type: none;
+        margin: 0;
+        padding: 4px;
+        position: sticky;
+        right:0;       
+}
+
+#listof li a {
+        display: block;
+        color: black;
+        padding: 11px 4px;
+        text-align: center;
+        font-size: 15px;
+        font-style: normal;
+        font-family: serif;
+        font-weight: normal;
+
+        text-decoration: none;
+}
+
+#listof li a:hover {
+        background-color: #666;
+        color: white;
+}
+        /* Conent Section Styles */
+        .content {
+            background: #fffff0;
+            grid-area: content;
+            padding: 30px;
+        }
+        .content p {
+            line-height: 28px;
+            margin-bottom: 48px;
+        }
+        .content img {
+            display: block;
+            /* This max-width value makes sure the image is responsive */
+            /* So even if we have a way larger image, it's gonna be resized as the 90% of the content area at max. */
+            max-width: 90%;
+
+            border: 4px solid #000;
+            margin: 10px auto;
+        }
+        /* This is where we change the layout once we are on a tablet or smaller device */
+        /* Resize your browser to see this happening or open on mobile */
+        @media screen and (max-width: 767px) {
+            /* We change the body grid for the new layout */
+            body {
+                /* We switch to one column layout*/
+                grid-template-columns: 1fr;
+                background: rgb(255 248 220);
+                /* Different parts of the application come one after another. This makes it mobile friendly layout */
+                grid-template-areas: 
+                    "header"
+                    "navibar"
+                    "sidebar"
+                    "content"
+                    "footer";
+            }
+        }

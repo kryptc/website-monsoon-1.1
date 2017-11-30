@@ -1,0 +1,73 @@
+html {
+    height: 100%;
+}
+body {
+
+        background-image: url("flowercity.jpg");
+        background-position: center top;
+        background-color: indianred;
+        background-size: 100%;
+        height: 100%;
+        width: 100%;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+}
+#nav-bar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 15%;
+        top:0px;
+        height:110%;
+        position: fixed;
+        opacity: 0.8;
+        overflow: auto;
+        background-color: #303030;
+}
+li a {
+        display: block;
+        color: #f66a6a;
+        padding: 41px 16px;
+        text-align: center;
+        font-size: 29px;
+        font-style: normal;
+	    font-family: 'Playfair Display', serif; 
+    	font-weight: bold;
+        text-decoration: none;
+}
+li:last-child {
+        border-bottom: 5px;
+}
+li a:hover {
+        background-color: #212121;
+        color: white;
+}
+.active {
+        background-color: #2a4a96;
+        color: white;
+}
+/*.name {
+         padding-left:5em;
+}*/
+.transbox {
+    padding-top: 4px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 4px;
+    margin-top: 290px;
+    margin-left: 300px;
+    margin-bottom: 15px;
+    margin-right: 100px;
+    background-color: #ffffff;
+    opacity: 0.7;
+}
+.transbox p {
+         margin: 3%;
+         font-size:20px;
+         text-align: center;
+         font-family: serif;
+    font-weight: normal;
+    color: #000000;
+}

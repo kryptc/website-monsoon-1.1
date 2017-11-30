@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+          content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" type="css" href="normalize.css">
+   <link rel="stylesheet" type="css" href="blogpg.css">
+   <script src="slideshow.js"></script>
+    
+    <title>My Blog Space</title>
+    <style>
+        body {
+           
+            font-family: serif;
+            display: grid;
+            grid-template-columns: 200px 4fr 1fr;
+            grid-template-areas: 
+                "navibar header header" 
+                "navibar content sidebar" 
+                "navibar footer footer";
+            
+            margin: 0;
+            min-height: 100vh;
+            }
+        .header {
+           
+            grid-area: header;
+            text-align: center;
+            background: #0c0c0c;
+            color: #fff;
+            font-size: 100%;
+            padding: 2%;
+            font-family: 'Playfair Display',Helvetica;
+
+        }
+        .sidebar {
+            grid-area: sidebar;
+            background: #eeeeee;
+        }
+        .footer {
+            grid-area: footer;
+            background: #777;
+            border-top: 2px solid;
+            padding: 10px;
+        }
+
+        #nav-bar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 15%;
+        top:0px;
+        height:110%;
+        position: fixed;
+        opacity: 1;
+        overflow: auto;
+        background-color: #303030;
+}
+
+li a {
+        display: block;
+        color: #f66a6a;
+        padding: 41px 16px;
+        text-align: center;
+        font-size: 29px;
+        font-style: normal;
+        font-family: 'Playfair Display',serif;
+        font-weight: bold;
+        text-decoration: none;
+}
+li a:hover {
+        background-color: #212121;
+        color: white;
+}
+li a.active {
+        background-color: #2a4a96;
+        color: white;
+}
+#listof {
+        list-style-type: none;
+        margin: 0;
+        padding: 4px;
+        position: sticky;
+        right:0;       
+}
+
+#listof li a {
+        display: block;
+        color: black;
+        padding: 11px 4px;
+        text-align: center;
+        font-size: 15px;
+        font-style: normal;
+        font-family: serif;
+        font-weight: normal;
+
+        text-decoration: none;
+}
+
+#listof li a:hover {
+        background-color: #666;
+        color: white;
+}
+            .content {
+            background: #fffff0;
+            grid-area: content;
+            padding: 30px;
+        }
+        .content p {
+            line-height: 28px;
+            margin-bottom: 48px;
+        }
+        .content img {
+            display: block;
+            
+            max-width: 90%;
+
+            border: 4px solid #000;
+            margin: 10px auto;
+        }
+       
+        @media screen and (max-width: 767px) {
+        
+            body {
+              
+                grid-template-columns: 1fr;
+                background: rgb(255 248 220);
+            
+                grid-template-areas: 
+                    "header"
+                    "navibar"
+                    "sidebar"
+                    "content"
+                    "footer";
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>OF ASSORTED MISCELLANY</h1>
+    </header>
+    <nav class="navibar">
+                <ul id="nav-bar">
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="resume.html">RESUME</a></li>
+                    <li><a href="scrapbook.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+    <article class="content">
+    <a name="entry1">
+        <h2>Love After Love</h2>
+        </a>
+        <p>
+        The time will come <br>
+when, with elation <br> 
+you will greet yourself arriving <br>
+at your own door, in your own mirror <br>
+and each will smile at the other's welcome, <br>
+
+and say, sit here. Eat. <br>
+You will love again the stranger who was your self.<br>
+Give wine. Give bread. Give back your heart <br>
+to itself, to the stranger who has loved you <br>
+
+all your life, whom you ignored <br>
+for another, who knows you by heart. <br>
+Take down the love letters from the bookshelf, <br>
+
+the photographs, the desperate notes, <br>
+peel your own image from the mirror. <br>
+Sit. Feast on your life.<br>
+<i>- Derek Walcott </i>
+<br>
+        
+        </p>
+        <hr>
+
+        <p>
+        <a name="entry2">
+        <h2>
+        HAMILTON - An American Musical
+        </h2>
+        </a>
+        <br>
+        <img src="hamilton.jpg" alt="lin-on-a-chair">
+        <br>
+        Hamilton is a Broadway musical that scored a record breaking 16 Tony nominations, about the life of American Founding Father Alexander Hamilton, written by Lin-Manuel Miranda, a modern-day Mozart. It is a revolutionary piece of theatre, mixing hip-hop, rap, R&B and Broadway flawlessly. While at first glance the show seems to revolve around men who lived centuries ago, Lin manages to include inclusivity, diversity and female empowerment through his masterful lyrics. Even the casting is colour-blind with straight white characters being played by actors from all races and backgrounds. The casting, as Miranda has said, is more reflective of America now and is meant to display the country’s diversity. Part of the show’s relatablility is in the audience seeing themselves in it. 
+        <br> <br>
+        The source material for the musical may be over 200 years old, but somehow, the show pulls out themes that are still relevant today. Every character is relatable and are represented as real people with a lot of grey areas in them. The musical itself is a mashup of music, genre and people in a way that is reflective of our own society. Hamilton is a universal and timeless story that Miranda has presented in the most impactful way. 
+        </p>
+        <hr>
+        <p>
+        <a name="entry3">
+        <h2> HARRY POTTER QUOTES</h2>
+        </a>
+        <br> 
+        "It is our choices, Harry, that show what we truly are, far more than our abilities." <br>
+         ― J.K. Rowling, Harry Potter and the Chamber of Secrets
+        <br> <br>
+        "It takes a great deal of bravery to stand up to our enemies, but just as much to stand up to our friends." <br>
+        – J.K. Rowling, Harry Potter and the Philosopher's Stone
+        <br><br>
+        "The thing about growing up with Fred and George," said Ginny thoughtfully, "is that you sort of start thinking anything’s possible if you’ve got enough nerve."<br>
+        ― J.K. Rowling, Harry Potter and the Half-Blood Prince
+        <br><br>
+        “After all this time?” “Always,” said Snape.<br>
+        – J.K. Rowling, Harry Potter and the Deathly Hallows
+        <br><br>  
+        "We've all got both light and dark inside us. What matters is the part we choose to act on. That's who we really are." <br>
+        ― J.K. Rowling, Harry Potter and the Order of the Phoenix
+        <br><br>
+        “There are some things you can't share without ending up liking each other, and knocking out a twelve-foot mountain troll is one of them.”<br>
+        – J.K. Rowling, Harry Potter and the Philosopher's Stone
+        <br><br>
+        “But you know, happiness can be found even in the darkest of times, if one only remembers to turn on the light.”<br>
+        ― J.K. Rowling, Harry Potter and the Prisoner of Azkaban
+        <br><br>
+        "It does not do to dwell on dreams and forget to live."<br>
+        – J.K. Rowling, Harry Potter and the Philosopher's Stone
+        <br><br>
+        "Of course it is happening inside your head, Harry, but why on earth should that mean that it is not real?"<br>
+        ― J.K. Rowling, Harry Potter and the Deathly Hallows
+        <br><br>
+        “If you want to know what a man’s like, take a good look at how he treats his inferiors, not his equals.”<br>
+        – J.K. Rowling, Harry Potter and the Goblet of Fire  
+        <br><br>
+        </p>
+        <hr>
+
+        
+        <p>
+        <a name="entry4">
+        <h2> the language of the mountains is rain </h2>
+        </a>
+        <br>
+         <img src="zucca/Number9dream.jpg" alt="book" style="float:right">
+         <p style="display: inline">
+        A coming-of-age story that encompasses pretty much every genre you can think of into one seamless tale spun around Eiji Miyake, a young Japanese man, searching for a father he's never met. He travels to a post-modern Tokyo, where he begins his search amidst a city of millions, all the while trying to reconcile with the memories of his dead sister. In my opinion, the author, David Mitchell is given far less credit than he deserves for this masterpiece in fiction. Mitchell has mastered a certain style of writing where authors use many different styles of prose and use vocabulary specific to each time and setting. In number9dream, he transitions between fantastical daydreams to Yakuza standoffs to World War 2 journals, weaving a different yet connected thread in each part. For the first time, I felt more attached to the atmosphere created by the strange writing than the actual protagonist, partly because of a long-standing attraction towards Japanese themes and because I'm a sucker for a book that doesn't really fit into any genre but captures your imagination nonetheless.
+        <br> <br>
+        </p>
+        </p>
+
+        <hr>
+
+        <p>
+        <a name="entry5">
+        <h2> TARANTINO </h2>
+        </a>
+        <br>
+        "Violence is what makes movies good."
+        <br> <br>
+        Presenting Quentin Tarantino, film maker extraordinaire, with a penchant for excessive fake blood splurting onto his lens. What's not to love? <br>
+        1. Utterly captivating dialogues/monologues, that keep it casual but interesting <br>
+        2. Non-linear plots <br>
+        3. Unapologetically violent scenes <br>
+        4. Range varies from the Wild West to a dystopian World War 2 setting <br>
+        5. Gripping soundtrack and scene progression <br> <br>
+        With movies like Inglourious Basterds, Pulp Fiction and Django Unchained tacked to his name, it's almost inspirational how he manages to make each film as fresh and original as his previous ones.
+        <br> <br>
+    
+        </p>
+        <hr>
+        <p>
+        <a name="entry6">
+        <h2> GIRLS/GIRLS/BOYS </h2>
+        </a>
+        <br>
+         <img src="zucca/patd.gif" alt="urie" style="float:right">
+         <p style="display: inline">
+        Panic! at the Disco is an American rock band from Las Vegas, Nevada, formed in 2004 and featuring vocalist Brendon Urie, bassist Dallon Weekes, guitarist Kenneth Harris and drummer Dan Pawlovich. The band recorded and released its debut studio album, A Fever You Can't Sweat Out in 2005. Popularized by the second single, "I Write Sins Not Tragedies", the album was certified double platinum in the US. Interestingly, Panic! at the Disco have been known to change their sound each album. 
+        <br> <br>
+        </p>
+        </p>
+       
+        <hr>
+        <p>
+        <a name="entry10">
+        <h2> World War II Era Images </h2>
+        </a>
+        <br>
+        “One death is a tragedy; a million is a statistic.” <br>
+        <img src="zucca/burning.jpg" alt="human-bones"><br><br>
+        Between 1939 and 1945, the world endured not only its bloodiest and most far-reaching military campaigns, but also some of its deadliest famines, civilian exterminations, and epidemics. In Nazi concentration camps across Eastern Europe, those years saw the worst genocide ever on record.
+        <br>
+        With combined civilian and military death toll estimates ranging as high as 85 million, World War II remains the single deadliest cataclysm in human history.
+        <br> <br>
+        <img src="zucca/bomb.jpg"><br><br>
+        <img src="zucca/img1.jpg"><br><br>        
+        <img src="zucca/ghetto.jpg"><br><br>      
+        <img src="zucca/heil.jpg"><br><br>
+        <img src="zucca/img4.jpg"><br><br>
+        </p>
+        <hr>
+
+    </article>
+    <aside class="sidebar">
+         <ul id="listof">
+
+                    <li><a href="#entry1">Love After Love</a></li>
+                    <li><a href="#entry2">Hamilton</a></li>
+                    <li><a href="#entry3">Harry Potter</a></li>
+                    <li><a href="#entry4">number9dream</a></li>
+                    <li><a href="#entry5">Tarantino</a></li>
+                    <li><a href="#entry6">P!ATD</a></li>
+                    <li><a href="#entry7">Cooking</a></li>
+                    <li><a href="#entry8">Skip Beat!</a></li>
+                    <li><a href="#entry9">Books</a></li>
+                    <li><a href="#entry10">History</a></li>
+                    <li><a href="#entry11">Game of Thrones</a></li>
+                    <li><a href="#entry12">Chocolate</a></li>
+                    <li><a href="#entry13">Fight Club</a></li>
+                    <li><a href="#entry14">Web Design</a></li>
+                    <li><a href="#entry15">Dead Poet's Society</a></li>
+                    <li><a href="#entry16">Psychology</a></li> 
+                    <li><a href="#entry17">KPOP</a></li>
+                    <li><a href="#entry18">Table Tennis</a></li>
+                    <li><a href="#entry19">Broadway</a></li>
+                    <li><a href="#entry20">Cyanide & Happiness</a></li>
+                    <li><a href="#entry21">Dogs</a></li>
+                    <li><a href="#entry22">Ice Cream</a></li>
+                    <li><a href="#entry23">Making lists</a></li>
+                    <li><a href="#entry24">Studio C</a></li>
+                    <li><a href="#entry25">Fantasy</a></li>
+                    <li><a href="#entry26">Sleeping</a></li>
+                    <li><a href="#entry27">Culture</a></li>
+                    <li><a href="#entry28">High Places</a></li>
+                    <li><a href="#entry29">Languages</a></li>
+                    <li><a href="#entry30">Poetry</a></li>
+                    <li><a href="#entry31">Travel</a></li>
+                    <li><a href="#entry32">Classical Art Memes</a></li>
+                    <li><a href="#entry33">Sushi</a></li>
+            </ul>
+    </aside>
+    <footer class="footer">
+        &copy; KRIPA
+    </footer>
+
+</body>
+
+</html>
